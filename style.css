@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+}
+
+header {
+    background: #1e3a5f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    text-align: left;
+    color: #1e3a5f;
+    margin-bottom: 15px;
+    border-left: 5px solid #28a745;
+    padding-left: 10px;
+}
+
+.hero,
+.formulario,
+.tabla-container,
+.grafico,
+.recomendaciones,
+.ia {
+    width: 85%;
+    max-width: 1000px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.hero {
+    text-align: left;
+}
+
+.formulario {
+    text-align: left;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+}
+
+#recomendacion {
+    text-align: left;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+#total {
+    text-align: center;
+    color: #28a745;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e3a5f;
+    color: white;
+    margin-top: 40px;
+}
